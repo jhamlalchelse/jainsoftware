@@ -1,0 +1,100 @@
+.client-sec-div {
+  background-color: rgb(28, 27, 27);
+  text-align: center;
+  padding: 4vmax 0 5vmax;
+  margin-top: 20px;
+}
+.client-header {
+  padding-bottom: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2.1vmax;
+}
+.client-sec-tooltip-content-div {
+  border: 1.5px solid rgb(249, 245, 245);
+  height: fit-content;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.client-sec-tooltip-content-bottom-arrow-div {
+  border: solid rgb(247, 245, 245);
+  width: 15px;
+  height: 15px;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  bottom: -10px;
+  background-color: rgb(28, 27, 27);
+}
+.client-image-logo-div {
+  margin: 3vmax 0;
+}
+.client-image-logo-div img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.client-image-logo-div button {
+  background-color: transparent;
+  border: none;
+}
+.client-image-logo-div img:hover {
+  background-color: rgb(176, 171, 169);
+  border-radius: 50%;
+  opacity: 1;
+}
+.client-sec-tooltip-content-div-margin {
+  margin: 2.5vmax 5vmax 2vmax;
+}
+.client-sec-tooltip-content {
+  color: rgb(184, 176, 176);
+  font-size: 1vmax;
+  font-weight: 300;
+  text-align: start;
+  line-height: 25px;
+}
+/* .client-sec-tooltip-content-para {
+  color: white;
+  text-align: start;
+  margin: 2.5vmax 5vmax;
+} */
+.client-sec-tooltip-content-para{
+  color: white;
+  text-align: start;
+  font-size: 1.2vmax;
+  margin: 2vmax 0 1vmax;
+}
+.quote1{
+  display: none !important;
+}
+.quote2{
+  display: block !important;
+}
+.quote3{
+  display: block !important; 
+}
+
+@media screen and (max-width: 768px) {
+  .client-header {
+    font-size: 3.5vmax;
+  }
+  
+.client-sec-tooltip-content {
+  color: rgb(184, 176, 176);
+  font-size: 2.2vmax;
+  font-weight: 300;
+  text-align: start;
+  line-height: 20px;
+}
+.client-sec-tooltip-content-para{
+  font-size: 2.3vmax;
+}
+}

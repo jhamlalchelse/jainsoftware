@@ -1,0 +1,28 @@
+.service-heading{
+    font-weight: 400;
+    margin: 3vmax 0 2vmax;
+}
+.service-para{
+    font-size: 17px;
+    color: rgb(91, 95, 98);
+}
+.service-div{
+    margin: 5vmax 5vmax;
+}
+.border-radius-div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(13, 133, 226);
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-logo{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    color: rgb(13, 133, 225);
+}
